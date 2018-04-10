@@ -1,6 +1,6 @@
 {% set name = "public-wrappers" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "e2b1f16594acdfd74dd5cf5ffa8d37a5a11f42481b88501b495171745e6cf3a3" %}
+{% set version = "0.2.2" %}
+{% set sha256 = "4f28a80e6014bca40e75c9ff4ede10503dd1e2d0e08c8d5be43ddeaa0d528264" %}
 
 package:
   name: {{ name|lower }}
@@ -29,6 +29,7 @@ requirements:
     - python
     - future
     - pytoml
+    - exec-wrappers
 
 test:
   imports:
