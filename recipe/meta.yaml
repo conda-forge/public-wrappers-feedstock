@@ -1,6 +1,6 @@
 {% set name = "public-wrappers" %}
 {% set version = "0.4.0" %}
-{% set sha256 = "8284b6b1c07f7b3f5a68daa794965fb371170adcf6b848d9d6a229b1229d70e5" %}
+{% set sha256 = "19a5313fbfa2739b2b37cbed0b8e91578b866d63c418a83180b3d243b65f869e" %}
 
 package:
   name: {{ name|lower }}
