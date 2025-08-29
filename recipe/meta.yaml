@@ -12,7 +12,7 @@ source:
 
 build:
   skip: True  # [win]
-  number: 1007
+  number: 1008
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - configure-public-wrappers = public_wrappers.__main__:main
